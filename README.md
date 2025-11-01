@@ -961,22 +961,6 @@ mvn test
 Tests run: 23, Failures: 0, Errors: 0, Skipped: 0
 ```
 
-### Test Generator (Optional)
-
-A test generator is available in `src/main/java/data/GraphDataGenerator.java` for creating custom datasets programmatically. While not used for the current 9 datasets (which are hand-crafted for specific test scenarios), it can generate additional random graphs for stress testing.
-
-**Usage:**
-```bash
-mvn exec:java -Dexec.mainClass="data.GraphDataGenerator"
-```
-
-This generates random graphs with configurable:
-- Size (n vertices)
-- Density (edge probability)
-- Cycle presence (allow/disallow cycles)
-
----
-
 ## Author
 
 **Student**: Sabyrov Sanzhar
